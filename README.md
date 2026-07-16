@@ -60,12 +60,13 @@
 vk-vlm-project/
 ├── README.md                   ← Описание проекта
 ├── SOLUTION.md                 ← Подробное описание решения
+├── Отчёт_VLM_Проект.docx       ← Отчёт по проекту
 ├── requirements.txt            ← Зависимости
 ├── eda.py                      ← EDA датасетов
 ├── eda_output/
 │   └── eda_summary.json        ← Сводка EDA
 ├── train_qlora.py              ← QLoRA fine-tuning
-├── evaluate.py                ← Оценка с изображениями
+├── evaluate.py                 ← Оценка с изображениями
 ├── evaluate_text_only.py       ← Текстовая оценка (без изображений)
 ├── checkpoints/
 │   ├── lora_adapter/           ← Обученный LoRA-адаптер
@@ -77,8 +78,6 @@ vk-vlm-project/
 │   ├── finetuned_mmbench_results.json
 │   └── summary.json            ← Сводка метрик
 ├── model_cache/                ← Локальная копия базовой модели
-└── presentation/
-    └── VLM_Project_Presentation.pptx
 ```
 
 ## Запуск
