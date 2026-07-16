@@ -26,7 +26,7 @@
 | Скрипт оценки (full + text-only) | ✅ `evaluate.py`, `evaluate_text_only.py` |
 | Метрики base vs fine-tuned | ✅ `eval_results/summary.json` |
 | Подробное описание решения | ✅ `SOLUTION.md` |
-| Презентация | ✅ `presentation/` |
+| Отчёт | ✅ `Отчёт_VLM_Проект.docx` |
 | README | ✅ этот файл |
 
 ## Использованные открытые данные VK
