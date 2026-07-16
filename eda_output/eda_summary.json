@@ -1,0 +1,135 @@
+{
+  "GQA-ru": {
+    "description": "Translated GQA benchmark for visual question answering in Russian",
+    "splits": {
+      "train_balanced_instructions": "~40k rows",
+      "testdev_balanced_instructions": "~12.2k rows",
+      "train_balanced_images": "~27.5k rows",
+      "testdev_balanced_images": "~398 rows"
+    },
+    "fields": [
+      "id",
+      "imageId",
+      "question",
+      "answer",
+      "fullAnswer",
+      "isBalanced",
+      "groups",
+      "entailed",
+      "equivalent",
+      "types",
+      "annotations",
+      "semantic",
+      "semanticStr"
+    ],
+    "sample_answers": {
+      "да": 38,
+      "нет": 35,
+      "слева": 14,
+      "справа": 9,
+      "мужчина": 4,
+      "стул": 3,
+      "лошадь": 3,
+      "пальто": 2,
+      "девочка": 2,
+      "корова": 2,
+      "пластик": 2,
+      "коричневый": 2,
+      "стол": 2,
+      "цвет": 2,
+      "парень": 1,
+      "город": 1,
+      "на сосиске": 1,
+      "на машине": 1,
+      "камера": 1,
+      "знак улицы": 1
+    },
+    "question_types": {
+      "{'structural': 'query', 'semantic': 'rel', 'detailed': 'relO'}": 27,
+      "{'structural': 'query', 'semantic': 'rel', 'detailed': 'relS'}": 18,
+      "{'structural': 'query', 'semantic': 'rel', 'detailed': 'categoryRelS'}": 16,
+      "{'structural': 'query', 'semantic': 'attr', 'detailed': 'positionQuery'}": 12,
+      "{'structural': 'verify', 'semantic': 'rel', 'detailed': 'existRelS'}": 9,
+      "{'structural': 'choose', 'semantic': 'rel', 'detailed': 'relChooser'}": 8,
+      "{'structural': 'verify', 'semantic': 'rel', 'detailed': 'existRelSC'}": 8,
+      "{'structural': 'query', 'semantic': 'cat', 'detailed': 'categoryThat'}": 7,
+      "{'structural': 'query', 'semantic': 'attr', 'detailed': 'directWhich'}": 7,
+      "{'structural': 'query', 'semantic': 'global', 'detailed': 'place'}": 5
+    },
+    "total_train_rows": 40000,
+    "total_testdev_rows": 12200
+  },
+  "MMBench-ru": {
+    "description": "Translated MMBench benchmark for multimodal understanding in Russian",
+    "splits": {
+      "dev": "~3.91k rows"
+    },
+    "fields": [
+      "index",
+      "question",
+      "hint",
+      "A",
+      "B",
+      "C",
+      "D",
+      "answer",
+      "category",
+      "source",
+      "l2-category",
+      "comment",
+      "split"
+    ],
+    "categories": {
+      "physical_property_reasoning": 55,
+      "image_quality": 54,
+      "object_localization": 45,
+      "image_scene": 38,
+      "attribute_recognition": 37,
+      "function_reasoning": 36,
+      "celebrity_recognition": 31,
+      "future_prediction": 27,
+      "structuralized_imagetext_understanding": 24,
+      "attribute_comparison": 24,
+      "action_recognition": 22,
+      "image_topic": 21,
+      "image_emotion": 17,
+      "image_style": 14,
+      "nature_relation": 13,
+      "identity_reasoning": 12,
+      "social_relation": 10,
+      "physical_relation": 8,
+      "spatial_relationship": 7,
+      "ocr": 6
+    },
+    "l2_categories": {
+      "coarse_perception": 144,
+      "finegrained_perception (instance-level)": 119,
+      "attribute_reasoning": 103,
+      "finegrained_perception (cross-instance)": 53,
+      "logic_reasoning": 51,
+      "relation_reasoning": 31
+    },
+    "answer_distribution": {
+      "A": 188,
+      "B": 155,
+      "C": 91,
+      "D": 67
+    },
+    "total_rows": 3910
+  },
+  "LLaVA-Instruct-ru": {
+    "description": "GPT-based instruction dataset for LLaVA-style training in Russian",
+    "splits": {
+      "train": "~144k rows"
+    },
+    "fields": [
+      "conversations",
+      "type",
+      "id"
+    ],
+    "types": {
+      "complex_reasoning": 201
+    },
+    "total_rows": 144000
+  }
+}

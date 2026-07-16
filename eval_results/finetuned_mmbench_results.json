@@ -1,0 +1,707 @@
+{
+  "accuracy": 0.57,
+  "correct": 57,
+  "total": 100,
+  "results": [
+    {
+      "question": "Какая часть яблони может вырасти в новое дерево?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Из какого материала сделана эта лопатка?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Это место многолюдное?",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка ярче?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Здесь много людей?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Которое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какая картина более яркая?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое свойство является общим для этих двух объектов?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка более красочная?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка более яркая?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая из картинок более красочная?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая из изображений более яркое?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка более красочная?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая из изображений более яркая?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какая картинка более красочная?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка более яркая?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какая изображение более красочная?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какая картинка более яркая?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Это место переполнено?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какая из картинок более яркая?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Следующее утверждение о нашей солнечной системе истинно или ложно?\nСамая маленькая планета состоит в",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Согласно временной шкале, когда люди начали играть в поло?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Каким свойством обладают эти три объекта?",
+      "gold": "B",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Судя по таблице, что изобрела Рут Хэндлер?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Основываясь на цепочке событий, какое событие происходит раньше в легенде?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение более яркое?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какой из следующих ископаемых моложе? Выберите наиболее вероятный ответ.",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Какая черта есть у этой рыжей белки?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Чей рот также приспособлен для разрывания мяса?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Пластик является минералом?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Два магнита расположены так, как показано на рисунке. Будут ли эти магниты притягиваться или отталки",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какое изображение является более ярким?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Является ли самородная медь минералом?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Является ли следующее утверждение о нашей солнечной системе правдой или ложью?\nОбъем Марса более чем",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Согласно хронологии, какое событие происходит после того, как Джеймс Маршалл обнаружил золото, и до ",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какая картинка более красочная?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Два магнита расположены так, как показано на рисунке. Подсказка: Магниты, которые притягиваются, стр",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Сравните средние кинетические энергии частиц в каждом образце. У какого образца более высокая темпер",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "У какого раствора более высокая концентрация розовых частиц?",
+      "gold": "C",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Описывает ли этот отрывок погоду или климат?",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какое изображение более красочное?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Подумайте о магнитной силе между магнитами в каждой паре. Какое из следующих утверждений верно?",
+      "gold": "C",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": true
+    },
+    {
+      "question": "Посмотрите на модели молекул ниже. Выберите простое вещество.",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Это место переполнено?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "У какого раствора более высокая концентрация зеленых частиц?",
+      "gold": "C",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Исходя из временной шкалы, какое утверждение является верным?",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какой термин соответствует изображению?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Дополните текст, чтобы описать диаграмму.\nЧастицы растворенного вещества двигались в обоих направлен",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Что лучше описывает экосистемы приливных бассейнов в заповеднике Tongue Point Marine Life Sanctuary?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Подумайте о магнитной силе между магнитами в каждой паре. Какое из следующих утверждений является ве",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Посмотрите на картинку. Какое слово лучше всего описывает звук, который издаёт эта вода?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Подумайте о магнитной силе между магнитами в каждой паре. Какое из следующих утверждений является пр",
+      "gold": "B",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Какая из растворов имеет более высокую концентрацию фиолетовых частиц?",
+      "gold": "C",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какая из этих колоний была Южной колонией?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Закончи предложение. Индийская летучая лисица это ().",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Подумайте о магнитной силе между магнитами в каждой паре. Какое из следующих утверждений является ве",
+      "gold": "C",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Каковы природные отношения между этими животными?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какой термин соответствует изображению?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какой термин соответствует картинке?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Слева от маленького зеленого объекта находится большой металлический предмет; какой он формы?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Каков характер взаимоотношений этих животных?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какова природа взаимоотношений этих животных?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Какое из решений имеет более высокую концентрацию зеленых частиц?",
+      "gold": "B",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Какой термин соответствует изображению?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Одинаковые ли две фигуры на картинке?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Что такое пальцы на банановом растении?",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какой раствор имеет более высокую концентрацию синих частиц?",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Есть объект, который находится и слева от серой сферы, и справа от маленького цилиндра; какой это фо",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Судя по цепочке событий, когда Тинкер Белл была отравлена?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Подумайте о магнитной силе между магнитами в каждой паре. Какое из следующих утверждений верно?",
+      "gold": "C",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": true
+    },
+    {
+      "question": "Каковы природные отношения между этими животными?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Каковы природные взаимоотношения этих животных?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какой термин соответствует изображению?",
+      "gold": "A",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": false
+    },
+    {
+      "question": "Какова природа взаимоотношений этих животных?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какой термин соответствует изображению?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Конфеты в двух банках на картинке одного цвета?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "На картинке ручки одного размера?",
+      "gold": "B",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": false
+    },
+    {
+      "question": "Что делают ежи, когда они боятся?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какой термин соответствует картинке?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Две банки с конфетами на изображении имеют одинаковую форму?",
+      "gold": "A",
+      "pred": "A",
+      "pred_letter": "A",
+      "correct": true
+    },
+    {
+      "question": "Каковы природные взаимоотношения этих животных?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Дополните предложение.\nАфриканский слон — () сухопутное животное в мире.",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какой раствор имеет более высокую концентрацию фиолетовых частиц?",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Какова природа взаимоотношений этих животных?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Исходя из временной шкалы, какое из следующих утверждений является верным?",
+      "gold": "A",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": false
+    },
+    {
+      "question": "Два дивана на картинке одного цвета?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    },
+    {
+      "question": "Какова природа отношений между этими животными?",
+      "gold": "C",
+      "pred": "C",
+      "pred_letter": "C",
+      "correct": true
+    },
+    {
+      "question": "На картинке одна игрушка – медведь, а другая – кошка. Они одного размера?",
+      "gold": "B",
+      "pred": "B",
+      "pred_letter": "B",
+      "correct": true
+    }
+  ]
+}

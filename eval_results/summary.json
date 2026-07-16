@@ -1,0 +1,6 @@
+{
+  "base_gqa_ru": 0.47,
+  "base_mmbench_ru": 0.57,
+  "finetuned_gqa_ru": 0.46,
+  "finetuned_mmbench_ru": 0.57
+}

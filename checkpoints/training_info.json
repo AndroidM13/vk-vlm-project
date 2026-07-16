@@ -1,0 +1,27 @@
+{
+  "model": "deepvk/llava-gemma-2b-lora",
+  "dataset": "deepvk/GQA-ru (train_balanced_instructions)",
+  "method": "QLoRA (4-bit NF4 + LoRA r=16, alpha=32) on language_model component",
+  "hyperparameters": {
+    "batch_size": 1,
+    "grad_accum": 8,
+    "effective_batch_size": 8,
+    "learning_rate": 2e-05,
+    "epochs": 1,
+    "max_steps": 100,
+    "warmup_steps": 20,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "max_length": 256,
+    "gradient_checkpointing": true,
+    "optimizer": "paged_adamw_8bit",
+    "lr_scheduler": "cosine",
+    "fp16": true
+  },
+  "train_samples": 2000,
+  "train_loss": 6.343351249694824,
+  "total_steps": 100,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU (6GB)",
+  "vram_usage_gb": 2.09
+}
