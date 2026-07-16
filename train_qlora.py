@@ -29,7 +29,8 @@ from peft import (
 
 # ── Configuration ────────────────────────────────────────────────────────
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(PROJECT_DIR, "model_cache", "llava-gemma-2b-lora")
+LOCAL_MODEL_PATH = os.path.join(PROJECT_DIR, "model_cache", "llava-gemma-2b-lora")
+MODEL_PATH = LOCAL_MODEL_PATH if os.path.exists(LOCAL_MODEL_PATH) else "deepvk/llava-gemma-2b-lora"
 OUTPUT_DIR = os.path.join(PROJECT_DIR, "checkpoints")
 ADAPTER_DIR = os.path.join(OUTPUT_DIR, "lora_adapter")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
