@@ -124,7 +124,7 @@ vk-vlm-project/
 │   ├── vram_usage.png                  ← Использование VRAM
 │   ├── trainable_params.png            ← Trainable vs Frozen параметров
 │   └── error_analysis.png              ← Анализ ошибок
-└── model_cache/                        ← Локальная копия базовой модели (не в Git; если нет — скрипты автоматически скачают с HuggingFace)
+└── model_cache/                        ← Локальная копия базовой модели (не в Git; скрипты автоматически скачают с HuggingFace)
 ```
 
 ## Результаты
